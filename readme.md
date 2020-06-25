@@ -1,2 +1,28 @@
-## Reconnaissance of webpage
-Apart from the interesting reading, our task is to extract IP addresses, URLs and hashes. To do so, we focus on extracting the information from the appendices. A quick look at the HTML page shows us that the tables are stored in a ```<figure>``` component with ```class="wp-block-table"```. With this information, we can extract the tables using the ```BeautifulSoup.find_all``` function.
+### Automation scripting
+This was completed using purely python3 libraries.  
+```
+cd automation_scripting
+
+## once in ~/automation_scripting create a python3 virtual environment
+pip3 install virtualenv
+virtualenv <env>
+
+## activate environment and install required libraries
+activate <env>/bin/activate
+pip3 install -r requirements.txt
+```
+
+
+### Cyber threat analysis
+Refer to ```cyber_threat_analysis.pdf```
+
+### Analytics development
+This was completed using python3 libraries on Jupyter Notebook. User will need to have Anaconda Prompt to re-create results.
+```
+## open Anaconda prompt
+cd analytics_development
+
+## once in ~/analytics_developemnt create the conda environment with required dependencies
+conda create --name <env> --file conda_requirements.txt
+gunzip -k http.log.gz
+```
