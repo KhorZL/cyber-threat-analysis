@@ -23,6 +23,6 @@ This was completed using python3 libraries on Jupyter Notebook. User will need t
 cd analytics_development
 
 ## once in ~/analytics_developemnt create the conda environment with required dependencies
-conda create --name <env> --file conda_requirements.txt
+conda create --name <env>
 gunzip -k http.log.gz
 ```
