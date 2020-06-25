@@ -1,0 +1,36 @@
+Command ID (Sent from C&C)	Sub Command ID (Sent from C&C)	Description	Command add date
+0x1	0x0	Gather installed software’s information	–
+0x2	0x0	Get Disks information	–
+0x2	0x1	File Search by name	–
+0x2	0x2	Find Directory	–
+0x2	0x4	Create Directory	–
+0x2	0x6	SHFileOperaion – Delete Directory	–
+0x2	0x7	SHFileOperaion – rename file	–
+0x2	0x9	Delete File in a given path	–
+0x2	0xa	ShellExecute ‘open’ command	–
+0x2	0xb	ShellExecute ‘open’ command	–
+0x2	0xe	Create new file and write its data	–
+0x3	0x0	Get active processes information	–
+0x3	0x2	Terminate Process	–
+0x3	0x3	Get loaded modules information	–
+0x4	all	Unique modules command: ARN – USB monitor module	only in outllib.dll variant
+0x4	all	Unique modules command: aria-body – reverse socks proxy module	Feb 2018 – not in outllib.dll
+0x5	0x0	Get MD5 of file	–
+0x6	0x0	Get titles of running windows	–
+0x6	0x1	Send WM_CLOSE message to given window name	–
+0x7	0x0	Get TCP and UDP tables	–
+0x7	0x1	Close given TCP connection	–
+0x8	0x0	Start keylogger	Feb 2018 – not in outllib.dll
+0x8	0x1	Stop keylogger	Feb 2018 – not in outllib.dll
+0X9	0X0	Inject itself into rundll32.exe – spawn module	July 2018 – not in outllib.dll
+0X9	0X1	Inject itself into rundll32.exe with UAC	July 2018 – not in outllib.dll
+0X9	0X2	Inject itself to every process except explorer.exe	July 2018 – not in outllib.dll
+0xa	0x1	Collect services data	Dec 2018 – not in outllib.dll
+0xaa	0x1	Load extensions	Dec 2018 – not in outllib.dll
+0xaa	0x2	‘runas’ with given process	–
+0xaa	0x3	Zip-Directory	–
+0xaa	0x4	Create Process and inject itself into it.	–
+0xaa	0x5	UAC method (duplicate token from ntprint.exe)	–
+0xaa	0x6	Send screenshot	–
+0xaa	0x7	Send command to given extension	Dec 2018 – not in outllib.dll
+0xaa	0x9	Destruction method	Dec 2018 – not in outllib.dll

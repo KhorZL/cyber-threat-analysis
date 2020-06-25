@@ -1,0 +1,7 @@
+asn	countrycode	ipaddr	key	owner	prefix
+37963	CN	47.111.82.157	47.111.82.157	CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN	47.111.0.0/16
+4713	JP	153.155.14.110	153.155.14.110	OCN NTT Communications Corporation, JP	153.128.0.0/11
+9821	PH	202.90.141.25	202.90.141.25	DOST-PH-AP Department of Science and Technology, PH	202.90.128.0/19
+17623	CN	58.251.121.110	58.251.121.110	CNCGROUP-SZ China Unicom Shenzen network, CN	58.251.121.0/24
+4812	CN	180.163.8.114	180.163.8.114	CHINANET-SH-AP China Telecom (Group), CN	180.160.0.0/13
+4816	CN	59.36.120.151	59.36.120.151	CHINANET-IDC-GD China Telecom (Group), CN	59.36.112.0/20

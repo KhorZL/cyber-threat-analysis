@@ -1,0 +1,2 @@
+## Reconnaissance of webpage
+Apart from the interesting reading, our task is to extract IP addresses, URLs and hashes. To do so, we focus on extracting the information from the appendices. A quick look at the HTML page shows us that the tables are stored in a ```<figure>``` component with ```class="wp-block-table"```. With this information, we can extract the tables using the ```BeautifulSoup.find_all``` function.
