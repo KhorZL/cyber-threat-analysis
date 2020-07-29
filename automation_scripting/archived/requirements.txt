@@ -122,7 +122,7 @@ ufw==0.36
 unattended-upgrades==0.1
 uritemplate==3.0.0
 urllib3==1.25.9
-uvicorn==0.4.5
+uvicorn==0.11.7
 uvloop==0.12.1
 virtualenv==15.1.0
 w3lib==1.22.0
