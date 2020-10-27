@@ -24,7 +24,7 @@ configobj==5.0.6
 constantly==15.1.0
 coreapi==2.3.3
 coreschema==0.0.4
-cryptography==2.9.2
+cryptography==3.2
 cssselect==1.1.0
 cymruwhois==1.6
 daphne==2.2.5
