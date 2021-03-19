@@ -73,7 +73,7 @@ opencv-python==4.2.0.34
 PAM==0.4.2
 parsel==1.6.0
 parsezeeklogs==2.0.1
-Pillow==7.1.2
+Pillow==8.1.1
 pip-chill==0.1.8
 pipdeptree==0.13.2
 Protego==0.1.16
